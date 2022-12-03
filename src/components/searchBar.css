@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(12, 16, 62);
+    color: white;
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.search-bar label{
+    padding: 10px;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.search-bar input{
+    border: 2px solid rgb(44, 236, 176);
+    width: 300px;
+    height: 25px;
+}
